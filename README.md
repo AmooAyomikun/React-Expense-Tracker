@@ -1,6 +1,7 @@
 # Trackr – Personal Expense Tracker
 
 Trackr is a modern personal finance management application built with React. It allows users to track income and expenses, manage category budgets, analyze spending habits, and monitor financial health through an intuitive dashboard.
+* Live Demo: https://amooayomikun.github.io/React-Expense-Tracker/
 
 ## Features
 
