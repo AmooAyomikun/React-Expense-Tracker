@@ -1,16 +1,56 @@
-# React + Vite
+# Trackr – Personal Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Trackr is a modern personal finance management application built with React. It allows users to track income and expenses, manage category budgets, analyze spending habits, and monitor financial health through an intuitive dashboard.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Dashboard
 
-## React Compiler
+* View total balance
+* View total income
+* View total expenses
+* Quick transaction entry
+* Recent transaction history
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Transaction Management
 
-## Expanding the ESLint configuration
+* Add income and expense transactions
+* Categorize transactions
+* Search transactions
+* Filter by type
+* Filter by category
+* Filter by month
+* Delete transactions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Budget Management
+
+* Set spending limits by category
+* Track spending against budgets
+* Visual budget progress bars
+* Budget status indicators
+
+### Analytics
+
+* Monthly spending visualization
+* Category spending breakdown
+* Bar chart reporting
+* Donut chart analysis
+
+### Settings
+
+* Update profile name
+* Change currency preference
+* Reset all stored application data
+
+## Technologies Used
+
+* React
+* React Router DOM
+* Context API
+* Local Storage
+* CSS3
+* Font Awesome
+* Tabler Icons
+
+
+Built with React and modern frontend development practices.
