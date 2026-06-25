@@ -28,7 +28,7 @@ const Settings = () => {
             
             <div className="profile">
                 <div className="form-group">
-                    <label htmlFor="userName">Your name</label>
+                    <label htmlFor="userName">Enter Your prefered user name</label>
                     <input 
                         type="text" 
                         id='userName'
@@ -37,6 +37,7 @@ const Settings = () => {
                         onChange={(e) => setUserName(e.target.value)}
                         className='input'
                     />
+                    <span className='text-muted'>Used in greetings and reports</span>
                 </div>
 
                 <div className="form-group">
@@ -47,9 +48,11 @@ const Settings = () => {
                         <option value="$">$ US Dollar</option>
                         <option value="£">£ British Pound</option>
                     </select>
+                    <span className='text-muted'>Symbol shown on all amounts</span>
                 </div>
 
                 <button type='button' className='btn-danger' onClick={handleReset}>Reset All</button>
+                <span className='text-muted'>Permanently delete all transactions and budgets</span>
             </div>
         </div>
     </div>  
