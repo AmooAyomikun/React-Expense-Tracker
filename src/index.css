@@ -1035,11 +1035,17 @@ footer span:last-child {
     gap: 0.5rem;
   }
 
-  .donut-chart {
-    width: 200px;
-    height: 200px;
+  .donut-legend {
+    grid-template-columns: 1fr; 
+    gap: 0.5rem;
+    width: 100%;
+    padding-left: 1rem;
   }
 
+  .donut-chart {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 576px) {

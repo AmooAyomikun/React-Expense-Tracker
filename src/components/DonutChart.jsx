@@ -13,10 +13,12 @@ const DonutChart = ({data}) => {
         return `${item.color} ${start}% ${end}%`
     })
 
-    const gradient = `conic-gradient(${gradientParts.join(",")})`
+    // const gradient = `conic-gradient(${gradientParts.join(",")})`
+    const gradient = `conic-gradient(${gradientParts.join(",")}, #e5e7eb ${currentPercent}% 100%)`
   return (
     <div className="donut-chart-wrapper donut-chart">
         <div className="donut-circle" style={{background: gradient}}>
+            
         </div>
         <div className="donut-legend">
             {data.map((item) => (
